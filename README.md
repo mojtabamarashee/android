@@ -1,2 +1,2 @@
 # android
-Make anddoid apk from linux command line
+Make andoid apk from linux command line(make.sh)
