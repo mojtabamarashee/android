@@ -9,4 +9,17 @@
       android:layout_centerVertical="true"
       android:text="@string/hello_msg"
       tools:context=".MainActivity" />
+
+  <Button
+          android:id="@+id/startbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/time_display_box"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="41dp"
+          android:text="@string/start" />
+
 </RelativeLayout>
+
+
+

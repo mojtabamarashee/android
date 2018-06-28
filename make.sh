@@ -16,7 +16,7 @@ echo "Generating R.java file..."
 $AAPT package -f -m -J src -M AndroidManifest.xml -S res -I $PLATFORM
 
 echo "Compiling..."
-#javac -d obj -classpath src -bootclasspath $PLATFORM -source 1.7 -target 1.7 src/com/example/helloandroid/MainActivity.java
+javac -d obj -classpath src -bootclasspath $PLATFORM -source 1.7 -target 1.7 src/com/example/helloandroid/MainActivity.java
 javac -d obj -classpath src -bootclasspath $PLATFORM -source 1.7 -target 1.7 src/com/example/helloandroid/R.java
 
 echo "Translating in Dalvik bytecode..."
