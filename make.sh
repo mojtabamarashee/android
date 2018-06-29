@@ -2,9 +2,9 @@
 
 set -e
 
-AAPT="/usr/share/android-sdk/build-tools/20.0.0/aapt"
-DX="/usr/share/android-sdk/build-tools/20.0.0/dx"
-ZIPALIGN="/usr/share/android-sdk/build-tools/20.0.0/zipalign"
+AAPT="/usr/share/android-sdk/build-tools/23.0.1/aapt"
+DX="/usr/share/android-sdk/build-tools/23.0.1/dx"
+ZIPALIGN="/usr/share/android-sdk/build-tools/23.0.1/zipalign"
 APKSIGNER="apksigner" # /!\ version 26
 PLATFORM="/usr/share/android-sdk/platforms/android-19/android.jar"
 
