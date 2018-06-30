@@ -6,8 +6,7 @@ Make andoid apk from linux command line
 <br>
 <br>
 
-Edit "AAPT, DX, ZIPALIGN, APKSIGNER, PLATFORM" variables according to android-sdk  instalaation path  in make.sh file
+Edit "AAPT, DX, ZIPALIGN, APKSIGNER, PLATFORM" variables according to android-sdk  installation path  in make.sh file
 
 
-<br>
-2- ./make.sh
+<br><strong>./make.sh</storng>
